@@ -2,7 +2,7 @@ package com.gamesys.exercises.reimbursement;
 
 public class ReimbursementResult {
     private boolean approved;
-    private float amount;
+    private double approvedAmount;
 
     public boolean isApproved() {
         return approved;
@@ -12,11 +12,11 @@ public class ReimbursementResult {
         this.approved = approved;
     }
 
-    public float getAmount() {
-        return amount;
+    public double getApprovedAmount() {
+        return approvedAmount;
     }
 
-    public void setAmount(float amount) {
-        this.amount = amount;
+    public void setApprovedAmount(double amount) {
+        this.approvedAmount = amount;
     }
 }
