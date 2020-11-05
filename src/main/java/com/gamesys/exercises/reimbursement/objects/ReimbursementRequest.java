@@ -1,4 +1,4 @@
-package com.gamesys.exercises.reimbursement;
+package com.gamesys.exercises.reimbursement.objects;
 
 public class ReimbursementRequest {
     private Long reimbursableId;

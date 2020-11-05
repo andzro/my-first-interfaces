@@ -1,4 +1,7 @@
-package com.gamesys.exercises.reimbursement;
+package com.gamesys.exercises.reimbursement.implementation;
+
+import com.gamesys.exercises.reimbursement.objects.Reimbursable;
+import com.gamesys.exercises.reimbursement.interfaces.ReimbursableProvider;
 
 public class ReimbursableProviderImpl implements ReimbursableProvider {
     @Override

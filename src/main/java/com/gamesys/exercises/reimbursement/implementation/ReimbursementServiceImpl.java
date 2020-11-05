@@ -1,4 +1,12 @@
-package com.gamesys.exercises.reimbursement;
+package com.gamesys.exercises.reimbursement.implementation;
+
+import com.gamesys.exercises.reimbursement.interfaces.EmployeeDetailsProvider;
+import com.gamesys.exercises.reimbursement.interfaces.PayoutManager;
+import com.gamesys.exercises.reimbursement.interfaces.ReimbursableProvider;
+import com.gamesys.exercises.reimbursement.interfaces.ReimbursementService;
+import com.gamesys.exercises.reimbursement.objects.PayoutRequest;
+import com.gamesys.exercises.reimbursement.objects.ReimbursementRequest;
+import com.gamesys.exercises.reimbursement.objects.ReimbursementResult;
 
 public class ReimbursementServiceImpl implements ReimbursementService {
 
